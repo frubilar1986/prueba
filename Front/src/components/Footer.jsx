@@ -1,7 +1,7 @@
 import React from 'react'
 const Footer = (props) => {
     return (
-        <footer className="md:relative p-4 bg-amber-400 sm:p-6 z-50 bottom-0 w-full dark:bg-amber-50">
+        <footer className="md:relative p-4 bg-amber-400 sm:p-6 z-50 bottom-0 w-full dark:bg-amber-100">
             <div className="md:flex md:justify-between md:px-24">
                 <div className="mb-6 md:mb-0">
                     <a href="https://flowbite.com/" className="flex items-center"> 

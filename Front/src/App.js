@@ -5,6 +5,7 @@ import HomeSearchBar from "./components/HomeSearchBar";
 // import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
+import Header from "./components/Header";
 
 
 
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
     <div className="flex flex-col  items-center w-full p-1 bg-gray-50 dark:bg-gray-300 text-black">
-      {/* <Header /> */}
+      <Header />
       <HomeSearchBar />
       <div className="mt-10 flex flex-wrap justify-evenly duration-300 gap-4 lg:gap-8 w-full lg:px-5">
        
